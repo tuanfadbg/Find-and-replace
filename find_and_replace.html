@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find and Replace Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find and Replace Tool</h1>
+    <textarea id="inputText" placeholder="Pasted text will appear here..." rows="10" cols="50"></textarea>
+    
+    <!-- New Copy All button -->
+    <button id="copyAllBtn">Copy All Text</button>
+
+    <div id="replaceOptions">
+        <div class="replace-item">
+            <input type="text" class="findText" placeholder="Find text">
+            <input type="text" class="replaceText" placeholder="Replace with">
+        </div>
+    </div>
+
+    <button id="addReplacement">Add another replacement</button>
+    
+    <!-- Removed Replace button as replacement will be automatic -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
